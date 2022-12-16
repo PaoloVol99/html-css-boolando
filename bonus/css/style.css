@@ -38,9 +38,21 @@ DEBUG START
 HEADER START
 ****************/
 
+/* .hidden-header {
+    min-height: 50px;
+    visibility: hidden;
+
+} */
+
 header {
     background-color: #FE6900;
     min-height: 50px;
+    position: sticky;
+    top: 0;
+    /* right: 0;
+    left: 0; */
+    z-index: 1;
+
 }
 
 /****************
@@ -131,9 +143,17 @@ MAIN START
            
 }
 
+.fig-1:hover {
+    background-image: url(../img/1b.webp);
+}
+
 .fig-2 {
     background-image: url(../img/2.webp); 
                           
+}
+
+.fig-2:hover {
+    background-image: url(../img/2b.webp);
 }
 
 .fig-3 {
@@ -141,9 +161,17 @@ MAIN START
     
 }
 
+.fig-3:hover {
+    background-image: url(../img/3b.webp);
+}
+
 .fig-4 {
     background-image: url(../img/4.webp);
     
+}
+
+.fig-4:hover {
+    background-image: url(../img/4b.webp);
 }
 
 .fig-5 {
@@ -151,9 +179,17 @@ MAIN START
     
 }
 
+.fig-5:hover {
+    background-image: url(../img/5b.webp);
+}
+
 .fig-6 {
     background-image: url(../img/6.webp);
     
+}
+
+.fig-6:hover {
+    background-image: url(../img/6b.webp);
 }
 
 [class*=fig-] {
