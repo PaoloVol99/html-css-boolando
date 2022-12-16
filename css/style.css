@@ -13,6 +13,12 @@ img {
     max-width: 100%;
 }
 
+ul,
+ol {
+    list-style: none;
+    text-decoration: none
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 html {
@@ -32,7 +38,7 @@ DEBUG START
 HEADER START
 ****************/
 
-.container-header {
+header {
     background-color: #FE6900;
     min-height: 50px;
 }
@@ -45,9 +51,13 @@ MAIN START
     padding: 30px 0 0;
 }
 
-.container {
+[class*=container] {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.container {
+    max-width: 1016px;
 }
 
 .row {
@@ -118,46 +128,110 @@ MAIN START
 
 .fig-1 {
     background-image: url(../img/1.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 460px;       
+           
 }
 
 .fig-2 {
     background-image: url(../img/2.webp); 
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 460px;                      
+                          
 }
 
 .fig-3 {
     background-image: url(../img/3.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 460px;
+    
 }
 
 .fig-4 {
     background-image: url(../img/4.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 460px;
+    
 }
 
 .fig-5 {
     background-image: url(../img/5.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 460px;
+    
 }
 
 .fig-6 {
     background-image: url(../img/6.webp);
+    
+}
+
+[class*=fig-] {
     background-size: contain;
     background-repeat: no-repeat;
-    height: 460px;
+    height: 465px;
 }
 
 .green-tag.double-tag {
     left: 42px;
+}
+
+.main-footer {
+    background-color: #1A1A1A;
+}
+
+.row-footer,
+.row-header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row a {
+    color: white;
+    font-size: 12px;
+}
+
+.row-footer-2,
+.row-header-2 {
+    gap: 10px;
+}
+
+.company-name {
+    color: white;
+    font-weight: 800;
+}
+
+.container-footer,
+.container-header {
+    padding: 15px 0;
+}
+
+.social {
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+}
+
+.social-buttons a {
+    font-size: 16px;
+    margin: 5px 2px 0
+}
+
+.row-header-2 {
+    font-weight: 800;
+}
+
+img.col-header {
+    height: 25px;
+}
+
+.bag {
+    height: 15px;
+    margin-right: 5px;
+}
+
+.user {
+    height: 15px;
+    color: white;
+    margin-right: 5px;
+}
+
+.heart-icon {
+    height: 15px;
+    color: white;
+}
+
+.icons {
+    width: 138.68px;
+    text-align: right;
 }
