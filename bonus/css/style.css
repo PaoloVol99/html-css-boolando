@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+    text-decoration: none
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/****************
+DEBUG START
+****************/
+
+.debug *{
+    border: 1px dashed tomato;
+    padding: 10px;
+}
+
+/****************
+HEADER START
+****************/
+
+header {
+    background-color: #FE6900;
+    min-height: 50px;
+}
+
+/****************
+MAIN START
+****************/
+
+.main-content {
+    padding: 30px 0 0;
+}
+
+[class*=container] {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1016px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row .col {
+    flex-basis: calc(100% / 3);
+    padding: 8px;
+    margin: 0 0 30px;
+}
+
+.figure {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    font-size: 14px;
+}
+
+.sale {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+}
+
+.brand {
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.product {
+    font-weight: 700;
+    display: block;
+}
+
+.current-price {
+    color: red;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.old-price {
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.green-tag {
+    background-color: green;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.fig-1 {
+    background-image: url(../img/1.webp);
+           
+}
+
+.fig-2 {
+    background-image: url(../img/2.webp); 
+                          
+}
+
+.fig-3 {
+    background-image: url(../img/3.webp);
+    
+}
+
+.fig-4 {
+    background-image: url(../img/4.webp);
+    
+}
+
+.fig-5 {
+    background-image: url(../img/5.webp);
+    
+}
+
+.fig-6 {
+    background-image: url(../img/6.webp);
+    
+}
+
+[class*=fig-] {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 465px;
+}
+
+.green-tag.double-tag {
+    left: 42px;
+}
+
+.main-footer {
+    background-color: #1A1A1A;
+}
+
+.row-footer,
+.row-header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row a {
+    color: white;
+    font-size: 12px;
+}
+
+.row-footer-2,
+.row-header-2 {
+    gap: 10px;
+}
+
+.company-name {
+    color: white;
+    font-weight: 800;
+}
+
+.container-footer,
+.container-header {
+    padding: 15px 0;
+}
+
+.social {
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+}
+
+.social-buttons a {
+    font-size: 16px;
+    margin: 5px 2px 0
+}
+
+.row-header-2 {
+    font-weight: 800;
+}
+
+img.col-header {
+    height: 25px;
+}
+
+.bag {
+    height: 15px;
+    margin-right: 5px;
+}
+
+.user {
+    height: 15px;
+    color: white;
+    margin-right: 5px;
+}
+
+.heart-icon {
+    height: 15px;
+    color: white;
+}
+
+.icons {
+    width: 138.68px;
+    text-align: right;
+}
